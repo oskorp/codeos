@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900;&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+
+
+}
+
+
+span {
+    font-size: .9rem;
+    color: #757373;
+
+}
+
+h6 {
+    fonr-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+#course img{
+    height: 1280;
+    width: 1920;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: #F1F1F1;
+    z-index: 999;
+}
+
+nav img {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav.navigation ul li a {
+    text-decoration: none;
+    color: #0F3D3E;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 03.s ease;
+}
+
+nav.navigation ul li a:hover {
+    color: orange;
+}
+
+/* Home */
+#Home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("images/images.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40pxj;
+}
+
+#Home h2 {
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#Home p {
+    width: 50%;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+
+#Home .btn {
+    padding: 30px;
+}
+
+#Home a {
+    text-decoration: none;
+    font-size: 0.9 rem;
+    padding: 13px 35px;
+    background-color: E2DCC8;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#Home a.blue {
+    color: black;
+    transition: 0.3s ease;
+}
+
+#Home a.blue:hover {
+    color: black;
+    background-color: orange;
+}
+
+#Home a.yello {
+    color: black;
+    transition: 0.3s ease;
+
+}
+
+#Home a.yello:hover {
+    color: black;
+    background-color: orange;
+}
+
+#features {
+    text-align: center;
+    padding: 5vw 8vw 0 8vw;
+    display: grid;
+}
+
+#features h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(46, 46, 59);
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+
+}
+
+#features .fea-box {
+    margin: auto;
+    padding: 30px;
+    text-align: start;
+    padding: 13px 0 7px 0;
+
+}
+
+#features .fea-box i {
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+}
+
+#features .fea-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+
+}
+
+#features .fea-box p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+
+}
+
+#course {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#course .courses {
+    text-align: sstart;
+    background-color: white;
+    height: 100%;
+    position: relative;
+
+}
+
+#course .courses img {
+    width: 100%;
+    height: 60%;
+}
+
+#course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#course .course.details {
+    color: bisque;
+    font-size: .9rem;
+
+}
+
+#course .courses .cost {
+    background-color: blueviolet;
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+
+#registration {
+    padding: 6vw 8vw 6vw 8vw;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("images/back1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#registration .reminder {
+    color: #fff;
+
+}
+
+
+#registraion .reminder h1 {
+    color: #fff;
+}
+
+#registration .reminder .time {
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .reminder .time .date {
+    text-align: center;
+    padding: 13px 33px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-weight: 600;
+}
+
+
+#registration .form {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#registration .form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid blueviolet;
+    outline: none;
+}
+
+#registration .form a.blue {
+    color: #fff;
+    background-color: orange;
+    transform: 0.3s ease;
+}
+
+#registration .form a.blue:hover {
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+#registration .form a.blue {
+    text-decoration: none;
+    font-size: 0.9 rem;
+    padding: 13px 35px;
+    background-color: aqua;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    background: orange;
+    transition: 03s ease;
+}
+
+#registration .form .btn {
+    margin: 20px;
+}
+
+#registration .form .input::placeholder {
+    color: #414c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+#experts {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box .profile {
+    background: #fafaf1;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.pro-links {
+    margin-top: 10px;
+}
+
+.pro-links i {
+    padding: 10px 13px;
+    border: 1px solid orange;
+    cursor: pointer;
+    color: #fafaf1;
+    background: #0F3D3E;
+    transition: 0.3s ease;
+}
+
+.pro-links i:hover {
+    background: orange;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+footer {
+    padding: 8vw;
+    background-color: #0F3D3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: #E2DCC8;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: grey;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: orange;
+}
+
+footer p {
+    color: E2DCC8;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: white;
+    border: #fafaf1;
+    border-radius: 3px;
+    outline: none;
+}
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.6 rem;
+    padding: 12px 15px;
+    background-color: aqua;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+footer .subscribe a.blue {
+    color: #fff;
+    background-color: orange;
+    transform: 0.3s ease;
+}
+
+.copyright{
+    border-color: #fafaf1;
+}
+
+footer .subscribe a.blue:hover {
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+@media (max-width:769px) {
+    nav{
+        padding:15px 20px ;
+       
+    }
+    nav img{
+        width: 130px;
+    }
+}
